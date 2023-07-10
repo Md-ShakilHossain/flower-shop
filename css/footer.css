@@ -1,0 +1,38 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.footer {
+    padding: 128px 650px;
+    background: #111010;
+}
+
+.footer-title {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.flower {
+    color: #E55473;
+}
+
+.footer-description {
+    width: 625px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+.footer-copyright {
+    margin-top: 32px;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
