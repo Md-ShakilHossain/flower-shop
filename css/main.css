@@ -132,6 +132,34 @@ body {
     font-size: 20px;
     font-weight: 700;
 }
- .section-four-text{
-    flex-direction: column;
- }
+
+/*four image styles */
+.four-img {
+    display: flex;
+    margin: 48px 240px 128px;
+    gap: 24px;
+}
+
+/* Last section styles */
+.input-box {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.subscribe {
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    border-style: none;
+    background: #E55473;
+}
+.section-last {
+    width: 1440px;
+    height: 450px;
+    margin: 0px 240px 128px;
+    padding: 121px 533px;
+    background-image: url('/FlowerAsset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+}
