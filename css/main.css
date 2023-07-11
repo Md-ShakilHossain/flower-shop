@@ -29,13 +29,14 @@ body {
 /* section two styles */
 .section-two {
     display: flex;
-    margin: 50px 240px 128px;
+    /* margin: 50px 240px 128px; */
     gap: 24px;
+    justify-content: space-evenly;
 }
 
 .first-div {
-    width: 464px;
-    height: 538px;
+    width: 400px;
+    height: 500px;
     border-radius: 300px 300px 0px 0px;
     background: url(../FlowerAsset/pngwing\ 6.png);
     background-color: rgba(167, 33, 98, 0.15);
@@ -46,20 +47,20 @@ body {
 }
 
 .second-div {
-    width: 464px;
-    height: 538px;
+    width: 400px;
+    height: 500px;
     border-radius: 300px 300px 0px 0px;
     background: url(../FlowerAsset/pngwing\ 5.png);
     background-color: rgba(5, 151, 160, 0.15);
     background-repeat: no-repeat;
     background-size: 370px 370px;
     background-position-x: center;
-    background-position-y: 120px;
+    background-position-y: 90px;
 }
 
 .third-div {
-    width: 464px;
-    height: 538px;
+    width: 400px;
+    height: 500px;
     border-radius: 300px 300px 0px 0px;
     background: url(../FlowerAsset/pngwing\ 7.png);
     background-color: rgba(71, 125, 17, 0.15);
@@ -72,6 +73,7 @@ body {
 /* section three styles */
 
 .section-three-conteainer {
+    margin-top: 128px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -103,10 +105,15 @@ body {
 }
 
 /* section four styles */
+.section4 {
+    margin-top: 128px;
+    background-color: #E554730D;
+}
+
 .section-four {
     display: flex;
-    padding: 100px 430px 100px 395px;
-    justify-content: space-between;
+    /* padding: 100px 430px 100px 395px; */
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -115,6 +122,12 @@ body {
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 24px;
+}
+
+.section-four-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section-four-description {
@@ -138,6 +151,7 @@ body {
     font-size: 20px;
     font-weight: 700;
 }
+
 .off {
     color: #E55473;
 }
@@ -148,6 +162,9 @@ body {
     /* margin: 48px 240px 128px; */
     gap: 20px;
     justify-content: space-evenly;
+}
+.instagram {
+    margin-bottom: 48px;
 }
 
 /* Last section styles */
@@ -164,8 +181,12 @@ body {
     border-radius: 8px;
     border-style: none;
     background: #E55473;
+    margin-left: 12px;
 }
+
 .section-last {
+    margin-top: 128px;
+    padding: 128px 0px;
     /* width: 1440px; */
     height: 450px;
     /* margin: 0px 240px 128px; */
@@ -173,6 +194,7 @@ body {
     background-image: url('../FlowerAsset/Rectangle\ 9.png');
     background-repeat: no-repeat;
 }
+
 .form {
     display: flex;
     justify-content: center;
