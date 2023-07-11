@@ -199,3 +199,25 @@ body {
     display: flex;
     justify-content: center;
 }
+
+/* extra section styles */
+
+.extra {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(95, 92, 92);
+    color: #FFF;
+    margin-top: 128px;
+}
+.explore {
+    font-size: 24px;
+}
+
+.explore:link {
+    color:#ec7891;
+}
+
+.explore:hover {
+    color:white;
+}
+
